@@ -1,0 +1,62 @@
+<head>
+<style>
+
+html, body {
+	background-color: black;
+}
+
+h1 {
+	font-family: "Courier New", Courier, monotone;
+	padding: 0px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.scroll_bar {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: black;
+	text-align: center;
+	position: -webkit-sticky;
+	position: sticky;
+	display: table;
+	table-layout: fixed;
+	top: 0;
+}
+
+.scroll_bar a {
+	float: left;
+	display: block;
+	color: white;
+	padding: 10px 115.99px 10px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.scroll_bar a:hover {
+	background-color: red;
+}
+
+.typing {
+	font-family: "Courier New", Courier, monotone;
+	color: white;
+}
+
+table, th, td {
+	border: 1px solid black;
+	margin: 3px;
+}
+
+th, td {
+	padding: 10px;
+	text-align: center;
+}
+
+td {
+	height: 300px;
+}
+
+</style>
+</head>

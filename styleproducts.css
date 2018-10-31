@@ -1,0 +1,67 @@
+<head>
+<style>
+
+html, body {
+	background-color: black;
+}
+
+h1 {
+	font-family: "Courier New", Courier, monotone;
+	padding: 0px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.scroll_bar {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: black;
+	text-align: center;
+	position: -webkit-sticky;
+	position: sticky;
+	display: table;
+	table-layout: fixed;
+	top: 0;
+}
+
+.scroll_bar a {
+	float: left;
+	display: block;
+	color: white;
+	padding: 10px 115.99px 10px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.scroll_bar a:hover {
+	background-color: red;
+}
+
+.gallery {
+	margin: 26px;
+	border: 1px solid black;
+	float: left;
+	width: 200px;
+	padding: 15px;
+	height: 200px;
+	text-align: center;
+}
+
+.gallery:hover {
+	background-color: none;
+}
+
+.gallery img {
+	width: 100%;
+	height: 100%;
+}
+
+.desc {
+	padding: 20px;
+	text-align: center;
+}
+
+</style>
+</head>
